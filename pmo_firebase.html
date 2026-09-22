@@ -392,7 +392,7 @@ let firestoreUnsubscribe = null;
 let _isExternalUpdate = false; // флаг: обновление пришло из Firestore (не локально)
 
 try {
-  if (FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.apiKey !== 'AIzaSyCI0MLuFKB6rTv5OTOQ8bY33qjR0HG0V_M') {
+  if (FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.apiKey !== 'AIzaSyDtssxEM6rmWlQaZeOjGzkbpfhgCbfH3OA') {
     firebase.initializeApp(FIREBASE_CONFIG);
     db = firebase.firestore();
     firebaseReady = true;
