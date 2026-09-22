@@ -377,12 +377,12 @@ fieldset.today-fs legend{color:var(--today)}
 // ════════════════════════════════════════════════════════════
 
 const FIREBASE_CONFIG = {
-  apiKey: "https://obsorciume.github.io/PMO-Orders/",
-  authDomain: "pmo-orders.firebaseapp.com",
-  projectId: "pmo-orders",
-  storageBucket: "pmo-orders.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef"
+  apiKey: "AIzaSyCI0MLuFKB6rTv5OTOQ8bY33qjR0HG0V_M",
+  authDomain: "potfoliokr.firebaseapp.com",
+  projectId: "potfoliokr",
+  storageBucket: "potfoliokr.firebasestorage.app.appspot.com",
+  messagingSenderId: "1050834417275",
+  appId: "1:1050834417275:web:8d22ce0698858182e8d4de"
 };
 
 let db = null;
@@ -391,7 +391,7 @@ let firestoreUnsubscribe = null;
 let _isExternalUpdate = false; // флаг: обновление пришло из Firestore (не локально)
 
 try {
-  if (FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.apiKey !== 'ВАШ_API_KEY') {
+  if (FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.apiKey !== 'AIzaSyCI0MLuFKB6rTv5OTOQ8bY33qjR0HG0V_M') {
     firebase.initializeApp(FIREBASE_CONFIG);
     db = firebase.firestore();
     firebaseReady = true;
